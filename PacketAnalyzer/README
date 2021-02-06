@@ -1,0 +1,32 @@
+# Sniffer.py
+This is a packet sniffer with two capabilities:
+
+1. Syn flood attack detector
+2. Port scanning detector
+
+## Installation
+Go inside the **packet_analyzer** folder, activate the virtual enviroment and install the *requirements.txt* using this commands:
+
+```
+source venv/bin/activate
+```
+
+```
+pip3 install -r requirements.txt
+```
+
+## Usage
+
+```
+python sniffer.py
+```
+
+Then follow the instructions and when the sniffer is running, open a terminal, go inside the packet_analyzer folder and run the command:
+
+```
+./test_the_program.sh
+```
+
+## Results
+
+You can see the results of the scan in the *scan_results.log* file and the results of the attacks in the *attacks.log* file.
